@@ -349,8 +349,8 @@
 
         <!-- Copyright -->
         <div class="text-light text-center p-3 " style="background-color: #9DC88D;">
-            © 2020 Copyright:
-            <a class="text-light" href="#">agdk.co.za</a>
+            © 2021 Copyright:
+            <a class="text-light" href="#">mogen.co.za</a>
         </div>
         <!-- Copyright -->
     </footer>
