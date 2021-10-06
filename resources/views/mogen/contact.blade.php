@@ -4,7 +4,7 @@
 <div class="container">
     <br />
     <br />
-    <div class="row pt-4 pb-4 " style="background-color:#DDED4; border-radius: 10px 10px 10px 10px;">
+    <div class="row pt-4 pb-4">
 
 
         <div class="col-lg-12 text-dark pl-4 pt-4">
@@ -19,7 +19,7 @@
         <div class="col-lg-12">
             <center>
                 <a href="https://wa.me/27762378714">
-                    <img src="https://res.cloudinary.com/daiey6vt0/image/upload/v1633500431/greenland%20flor/whatsapp_PNG21_xjv3xc.png" style="width: 40%; max-width:40vw;max-height:unset;" alt="">
+                    <img src="https://res.cloudinary.com/daiey6vt0/image/upload/v1633500431/greenland%20flor/whatsapp_PNG21_xjv3xc.png" class="img-contact" alt="">
                 </a>
             </center>
 

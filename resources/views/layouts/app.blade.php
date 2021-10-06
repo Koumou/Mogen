@@ -84,7 +84,16 @@
         /* height: 100px; */
         object-fit: cover;
     }
+    .img-contact {
+        /* float: left; */
+        /* width: 100px; */
 
+        height:250px;
+    width:250px;
+    object-fit:fill;
+        /* height: 100px; */
+        /* object-fit: cover; */
+    }
 
     @media only screen and (max-width: 760px),
     (min-device-width: 768px) and (max-device-width: 1024px) {
