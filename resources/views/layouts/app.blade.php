@@ -75,6 +75,17 @@
         -webkit-text-fill-color: transparent;
     }
 
+    img {
+        /* float: left; */
+        /* width: 100px; */
+
+        height:450px;
+    width:100%;
+        /* height: 100px; */
+        object-fit: cover;
+    }
+
+
     @media only screen and (max-width: 760px),
     (min-device-width: 768px) and (max-device-width: 1024px) {
 
@@ -87,7 +98,7 @@
             line-height: 1;
             text-align: center;
             font-size: 60px;
-            background: linear-gradient(to right, #30CFD0 0%, #330867 80%);
+            background: linear-gradient(to right, #4D774E 0%, #9DC88D 80%);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
         }
@@ -121,6 +132,12 @@
 
     .borderright {
         border-left: 5px solid #4D774E;
+        height: 2px;
+
+    }
+
+    .borderleft {
+        border-right: 5px solid #4D774E;
         height: 2px;
 
     }
@@ -160,6 +177,20 @@
     .borderradius2 {
         /* border-radius: 50%; */
         /* margin: -20px -20px 20px -20px; */
+        border-radius: 160px 160px 160px 0px;
+
+    }
+
+    .borderradius3 {
+        /* border-radius: 50%; */
+        /* margin: -20px -20px 20px -20px; */
+        border-radius: 160px 0px 160px 160px;
+
+    }
+
+    .borderradius4 {
+        /* border-radius: 50%; */
+        /* margin: -20px -20px 20px -20px; */
         border-radius: 0px 160px 160px 160px;
 
     }
@@ -172,6 +203,12 @@
         /* background-color: rgb(208, 192, 74); */
         background-color: #DADED4;
         color: whitesmoke;
+    }
+
+    video {
+        /* override other styles to make responsive */
+        width: 100% !important;
+        height: auto !important;
     }
 
     .btncontact,
@@ -199,7 +236,7 @@
     <div>
         <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
             <div class="container">
-                <a class="navbar-brand" style="font-size:xx-large;">Mo<b>gen</b> <i class='fa fa-leaf' style='font-size:14px'></i>
+                <a class="navbar-brand" style="font-size:x-large;">Greenland <b>Flor</b> <i class='fa fa-leaf' style='font-size:14px'></i>
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -290,7 +327,7 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-   
+
     <script>
         function scrollToTop() {
             $(window).scrollTop(0);
@@ -301,18 +338,16 @@
             <div class="row">
                 <div class="col-lg-6 col-md-12 mb-2 align-self-center">
                     <h5 class="text-uppercase">
-                    <i class="fa fa-leaf col d-flex justify-content-center pb-3 py-3" style="font-size:38px;color:#9DC88D;"></i>
+                        <i class="fa fa-leaf col d-flex justify-content-center pb-3 py-3" style="font-size:38px;color:#9DC88D;"></i>
                     </h5>
 
                     <p>
-                        Microgreens are the seedlings of vegetables and herbs. They are an emerging type of specialty vegetable that people can buy from shops or grow at home from the seeds of vegetables, herbs, or grains
-                        May be you did not know: plant-based diets may help reduce the risk of heart disease, cancer, type 2 diabetes, obesity, and other conditions.
-
+                        We always eat healthy with Greenland Flor.
                     </p>
                 </div>
 
                 <div class="col-lg-3 col-md-6 mt-4 mb-4 mb-md-0 ">
-                    <h5 class="text-uppercase">Mogen Links</h5>
+                    <h5 class="text-uppercase">Greenland Flor Links</h5>
 
                     <ul class="list-unstyled mb-0">
                         <li class="{{Request::is ('contact') ? 'active' : ''}}">
@@ -331,11 +366,7 @@
                     <h5 class="text-uppercase">Follow us</h5>
                     <ul class="nav justify-content-center list-unstyled mb-0">
                         <li>
-                            <a class="nav-link" href="#"> <i class="fa fa-facebook-f" style="font-size:20px;color:#9DC88D;"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a class="nav-link" href="#"> <i class="fa fa-google" style="font-size:20px;color:#9DC88D;"></i>
+                            <a class="nav-link" href="https://wa.me/27762378714"> <i class="fa fa-whatsapp" style="font-size:25px;color:#9DC88D;"></i>
                             </a>
                         </li>
 
@@ -350,11 +381,11 @@
         <!-- Copyright -->
         <div class="text-light text-center p-3 " style="background-color: #9DC88D;">
             © 2021 Copyright:
-            <a class="text-light" href="#">mogen.co.za</a>
+            <a class="text-light">greenland-flor.co.za</a>
         </div>
         <!-- Copyright -->
     </footer>
-    
+
 </body>
 
 </html>

@@ -4,7 +4,7 @@
 <div class="container">
     <br />
     <br />
-    <div class="row pt-4 pb-4 " style="background-color:#DADED4; border-radius: 10px 10px 10px 10px;">
+    <div class="row pt-4 pb-4 " style="background-color:#DDED4; border-radius: 10px 10px 10px 10px;">
 
 
         <div class="col-lg-12 text-dark pl-4 pt-4">
@@ -18,7 +18,9 @@
         </div>
         <div class="col-lg-12">
             <center>
-                <img src="https://cdn.dribbble.com/users/1081269/screenshots/7692437/media/57f46fe3aac726a2c51ac690e4272881.jpg" style="width: 60%; max-width:60vw;max-height:unset;" alt="">
+                <a href="https://wa.me/27762378714">
+                    <img src="https://res.cloudinary.com/daiey6vt0/image/upload/v1633500431/greenland%20flor/whatsapp_PNG21_xjv3xc.png" style="width: 40%; max-width:40vw;max-height:unset;" alt="">
+                </a>
             </center>
 
 
