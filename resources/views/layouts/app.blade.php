@@ -25,11 +25,14 @@
 </head>
 
 <style>
+    @import url('https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap');
+
     * {
         transition: all 0.2s ease-in-out;
-        font-family: 'Nunito';
-        font-style: normal;
+        font-family: 'Poppins', sans-serif;
         font-weight: 400;
+        transition: transform .3s ease-in-out;
+        transition: all .2s;
     }
 
     html {
@@ -63,7 +66,7 @@
 
     .h1gradient {
         color: #111;
-        font-family: 'Helvetica Neue', sans-serif;
+        font-family: 'Poppins', sans-serif;
         /* font-size: 275px; */
         font-weight: bold;
         letter-spacing: -1px;
@@ -79,18 +82,19 @@
         /* float: left; */
         /* width: 100px; */
 
-        height:450px;
-    width:100%;
+        height: 450px;
+        width: 100%;
         /* height: 100px; */
         object-fit: cover;
     }
+
     .img-contact {
         /* float: left; */
         /* width: 100px; */
 
-        height:250px;
-    width:250px;
-    object-fit:fill;
+        height: 250px;
+        width: 250px;
+        object-fit: fill;
         /* height: 100px; */
         /* object-fit: cover; */
     }
@@ -100,7 +104,7 @@
 
         .h1gradient {
             color: #111;
-            font-family: 'Helvetica Neue', sans-serif;
+            font-family: 'Poppins', sans-serif;
             /* font-size: 275px; */
             font-weight: bold;
             letter-spacing: -1px;
@@ -113,6 +117,45 @@
         }
 
     }
+
+    @media only screen and (max-width: 348px),
+    (min-device-width: 348px) and (max-device-width: 455px) {
+
+        .h1gradient {
+            color: #111;
+            font-family: 'Poppins', sans-serif;
+            /* font-size: 275px; */
+            font-weight: bold;
+            letter-spacing: -1px;
+            line-height: 1;
+            text-align: center;
+            font-size: 40px;
+            background: linear-gradient(to right, #4D774E 0%, #9DC88D 80%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+    }
+
+    @media only screen and (max-width: 255px),
+    (min-device-width: 255px) and (max-device-width: 455px) {
+
+        .h1gradient {
+            color: #111;
+            font-family: 'Poppins', sans-serif;
+            /* font-size: 275px; */
+            font-weight: bold;
+            letter-spacing: -1px;
+            line-height: 1;
+            text-align: center;
+            font-size: 35px;
+            background: linear-gradient(to right, #4D774E 0%, #9DC88D 80%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+    }
+
 
     .linecolorh2 {
         background-image: linear-gradient(to right, whitesmoke, #008000);
@@ -173,7 +216,7 @@
 
     .navbar-nav {
         font-size: 1rem;
-        font-family: 'Source Sans Pro', sans-serif;
+        font-family: 'Poppins', sans-serif;
     }
 
     .borderradius1 {
@@ -245,7 +288,7 @@
     <div>
         <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
             <div class="container">
-                <a class="navbar-brand" style="font-size:x-large;">Greenland <b>Flor</b> <i class='fa fa-leaf' style='font-size:14px'></i>
+                <a class="navbar-brand" style="font-size:x-large;"><i class='fa fa-leaf' style='font-size:25px'></i>
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -366,7 +409,7 @@
                             <a href="/contact" class="text-dark">Contact Us</a>
                         </li>
                         <li>
-                            <a href="#!" class="text-dark">T&Cs</a>
+                            <!-- <a href="#!" class="text-dark">T&Cs</a> -->
                         </li>
 
                     </ul>
